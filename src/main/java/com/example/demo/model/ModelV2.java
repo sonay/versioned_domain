@@ -1,7 +1,5 @@
-package com.example.demo.controller;
+package com.example.demo.model;
 
-import com.example.demo.model.Field2Value;
-import com.example.demo.model.VersionedModel;
 
 public class ModelV2 implements VersionedModel {
     private final String field1;
