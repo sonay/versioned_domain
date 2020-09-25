@@ -9,6 +9,11 @@ public class ModelV2 implements VersionedModel {
     }
 
     @Override
+    public String field1() {
+        return field1;
+    }
+
+    @Override
     public void visit(Object someDomainProcessor) {
 
     }
