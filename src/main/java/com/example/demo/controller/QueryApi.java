@@ -27,9 +27,9 @@ public class QueryApi {
     }
 
     @PostMapping("/v2/{ignoredForDemo}")
-    public void queryV2(@RequestParam("param") String field1, @RequestParam("param2")Field2Value field2Value) {
+    public void queryV2(@RequestParam("param") String field1) {
         // do v2 specific things
-        processCommon(new ModelV1(field1, field2Value));
+        processCommon(new ModelV2(field1));
     }
 
     private void processCommon(VersionedModel model) {
