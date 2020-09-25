@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.CommonPath;
 import com.example.demo.model.Field2Value;
 import com.example.demo.model.ModelV1;
+import com.example.demo.model.ModelV2;
 import com.example.demo.model.VersionedModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
