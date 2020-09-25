@@ -1,5 +1,5 @@
 # versioned_domain
-A solution for a versioned domain model objects
+A solution for a versioned domain model objects problem.
 
 
 The idea is for each versioned domain class, define a versioned model interface as exampled in com.example.demo.model.VersionedModel.
